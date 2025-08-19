@@ -1,0 +1,26 @@
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px;
+  padding: 20px;
+}
+
+.video-card {
+  cursor: pointer;
+}
+
+.video-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.video-card h3 {
+  font-size: 1rem;
+  margin: 8px 0 4px;
+}
+
+.video-card p {
+  color: #606060;
+  font-size: 0.9rem;
+  margin: 2px 0;
+}

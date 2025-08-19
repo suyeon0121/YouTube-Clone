@@ -1,0 +1,25 @@
+.video-card {
+  width: 300px;
+  margin: 10px;
+  cursor: pointer;
+
+  img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .video-info {
+    padding: 5px;
+    
+    h4 {
+      font-size: 16px;
+      margin: 5px 0;
+    }
+    
+    p {
+      font-size: 14px;
+      color: gray;
+      margin: 0;
+    }
+  }
+}
