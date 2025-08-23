@@ -1,7 +1,7 @@
 import React from "react";
 import '../styles/globals.scss'
 
-function Header({ onMenuClick, query, setQuery, onSearch, onLogoClick }) {
+function Header({ onMenuClick, query, setQuery, onSearch, onLogoClick, onProfileClick }) {
     return (
         <header className="header">
             <button className="menu-btn" onClick={onMenuClick} aria-label="메뉴 열기">
@@ -19,7 +19,7 @@ function Header({ onMenuClick, query, setQuery, onSearch, onLogoClick }) {
                 />
                 <button type="submit">🔍</button>
             </form>
-            <div className="profile-icon"></div>
+            <div className="profile-icon" onClick={onProfileClick} style={{ cursor: "pointer" }}></div>
         </header>
     );
 }

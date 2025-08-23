@@ -42,12 +42,16 @@ function Sidebar() {
 
             <ul className="subscription-list">
                 <li>
-                    <div className="channel-icon"></div>
-                    <span className="channel-name">채널1</span>
+                    <a href="https://github.com/suyeon0121" target="_blank" rel="noopener noreferrer">
+                        <img src="/Github.png" alt="깃허브 아이콘" className="icon"/>
+                        <span>GitHub</span>
+                    </a>
                 </li>
                 <li>
-                    <div className="channel-icon"></div>
-                    <span className="channel-name">채널2</span>
+                    <a href="https://www.notion.so/249d71628a0f80229693f0ed55f69b8a?source=copy_link" target="_blank" rel="noopener noreferrer">
+                        <img src="/notion.png" alt="노션 아이콘" className="icon"/>
+                        <span className="channel-name">Notion</span>
+                    </a>
                 </li>
             </ul>
         </aside>
